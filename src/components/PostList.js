@@ -7,6 +7,7 @@ const PostList = (props) => {
         <Datagrid>
             <TextField source='id'/>
             <TextField source='title'/>
+            <TextField source='body'/>
             {/* <TextField source='slug'/>
             <TextField source='content'/>
             <TextField source='category'/>
